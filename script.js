@@ -80,7 +80,7 @@ function setupClickAnimation(element, color1, color2, moveX, moveY) {
     });
 }
 
-// Setup animations with more dynamic colors and values
+
 setupClickAnimation(box, "#3b82f6", "#10b981", 80, -60);
 setupClickAnimation(circle, "#ef4444", "#f59e0b", 0, -100);
 setupClickAnimation(pill, "#8b5cf6", "#ec4899", -80, -60);
