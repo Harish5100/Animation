@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Animated Website</title>
+    <!-- Basic Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1 class="header">Basic GSAP Animation</h1>
+        <p class="description">This is a simple, easy-to-understand example of a website using an animation library (GSAP).</p>
+        
+        <div class="animation-area">
+            <div class="box">Square</div>
+            <div class="circle">Circle</div>
+            <div class="pill">Pill</div>
+        </div>
+    </main>
+
+    <!-- GSAP Library loaded from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
