@@ -1,4 +1,4 @@
-/* Minimalist, clean styling */
+/* code for animation using GSAP */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f8fafc;
@@ -39,7 +39,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* Base styles for all shapes */
+/* SQUARE & CIRCLE & PILL */
 .box, .circle, .pill {
     color: white;
     display: flex;
